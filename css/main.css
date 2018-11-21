@@ -112,7 +112,7 @@ a {
 
 html {
     color: #222;
-    background-color: rgb(253, 223, 223);
+    background-color: rgb(255, 255, 255);
     font-size: 1em;
     line-height: 1.4;
 }
@@ -124,24 +124,27 @@ nav.horizontal ul li {
     font-size: 15px;
     float: left;
     line-height: 30px;
-    height: 30px;
-    width: 160px;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 16.66%;
 }
 
 nav.horizontal a {
     display: block;
     text-align: center;
     text-decoration: none;
+    border: outset 5px;
+    border-color: rgb(165, 71, 71);
 }
 
 nav a:link,
-nav:visited {
-    color: rgb(224, 224, 244);
+nav a:visited {
+    color: rgb(244, 224, 224);
 }
 
 nav a:hover,
-nav:active {
-    color: rgb(165, 71, 71);
+nav a:active {
+    color: rgb(209, 100, 100);
 }
 
 /* Body Styles */
@@ -162,7 +165,7 @@ body>header>img {
 
 /* Article Styles */
 article h1 {
-    padding-top: 20px;
+    margin-top: 40px;
     font-size: 20px;
     border: 4px double rgb(93, 47, 45);
     border-radius: 2px;
