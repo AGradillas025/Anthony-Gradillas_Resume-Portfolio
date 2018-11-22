@@ -215,9 +215,9 @@ body>article>p {
  * Hide visually and from screen readers
  */
 
-.hidden {
+/* .hidden {
     display: none !important;
-}
+} */
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -228,7 +228,7 @@ body>article>p {
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
-.visuallyhidden {
+/* .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -238,8 +238,8 @@ body>article>p {
     position: absolute;
     width: 1px;
     white-space: nowrap;
-    /* 1 */
-}
+    1
+} */
 
 /*
  * Extends the .visuallyhidden class to allow the element
@@ -247,7 +247,7 @@ body>article>p {
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
+/* .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
@@ -256,15 +256,15 @@ body>article>p {
     position: static;
     width: auto;
     white-space: inherit;
-}
+} */
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
 
-.invisible {
+/* .invisible {
     visibility: hidden;
-}
+} */
 
 /*
  * Clearfix: contain floats
@@ -278,17 +278,17 @@ body>article>p {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
+/* .clearfix:before,
 .clearfix:after {
     content: " ";
-    /* 1 */
+    1
     display: table;
-    /* 2 */
+    2
 }
 
 .clearfix:after {
     clear: both;
-}
+} */
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -296,16 +296,16 @@ body>article>p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
+/* @media only screen and (min-width: 35em) {
+    Style adjustments for viewports that meet the condition
+} */
 
-@media print,
+/* @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
 (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
+    Style adjustments for high resolution devices
+} */
 
 /* ==========================================================================
    Print styles.
@@ -313,14 +313,14 @@ body>article>p {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
+/* @media print {
 
     *,
     *:before,
     *:after {
         background: transparent !important;
         color: #000 !important;
-        /* Black prints faster */
+        Black prints faster
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important;
@@ -337,14 +337,14 @@ body>article>p {
 
     abbr[title]:after {
         content: " ("attr(title) ")";
-    }
+    } */
 
-    /*
+/*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
 
-    a[href^="#"]:after,
+/* a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
     }
@@ -357,14 +357,14 @@ body>article>p {
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
-    }
+    } */
 
-    /*
+/*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
 
-    thead {
+/* thead {
         display: table-header-group;
     }
 
@@ -384,4 +384,4 @@ body>article>p {
     h3 {
         page-break-after: avoid;
     }
-}
+} */
