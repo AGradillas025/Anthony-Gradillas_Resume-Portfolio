@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* 
+Author: Anthony S,A Gradillas
+Date:   12.17.18
+      
+   
+Filename: website.css
+*/
+
+
+/* General Styles */
+body,
+header,
+aside,
+article,
+footer,
+h1,
+html,
+img,
+li,
+nav,
+p,
+ul,
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    color: #222;
+    background-color: #E3E2DF;
+    /*rgb(255, 255, 255)*/
+    font-size: 1em;
+    line-height: 1.4em;
+    background-image: url(Sedona_Arizona-27527-4.jpg);
+    background-repeat: round;
+    background-attachment: fixed;
+}
+
+/* Header Styles */
+.horizontal ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+nav.horizontal {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+nav.horizontal ul {
+    text-align: center;
+}
+
+nav.horizontal ul li {
+    background-color: #97AABD;
+    /*rgb(96, 96, 96)*/
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    float: left;
+    line-height: 30px;
+    height: 35px;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+nav.horizontal a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-style: groove;
+    border: outset 5px;
+    border-color: #314455;
+    box-shadow: black -1px 0px 35px;
+    /*rgb(165, 71, 71)*/
+}
+
+nav a:link,
+nav a:visited {
+    color: #9E5A63;
+}
+
+nav a:hover,
+nav a:active {
+    color: #950740;
+    /*rgb(209, 100, 100)*/
+}
+
+/* Body Styles */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 960px;
+    min-width: 640px;
+    box-shadow: black -10px 0px 45px;
+    width: 95%;
+}
+
+body>header>img {
+    display: block;
+    width: 100%;
+}
+
+/* Article Styles */
+article h1 {
+    font-size: 20px;
+}
+
+body>article {
+    background: transparent;
+    background-color: #C96567;
+}
+
+body>article>h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+body>article>p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    padding-bottom: 10px;
+}
+
+/* Aside Styles */
