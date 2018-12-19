@@ -30,10 +30,11 @@ a {
 
 html {
     color: #222;
-    background-color: #E3E2DF;
+    background-color: #b8b6b6;
     /*rgb(255, 255, 255)*/
     font-size: 1em;
     line-height: 1.4em;
+    width: 100%;
     background-image: url(Sedona_Arizona-27527-4.jpg);
     background-repeat: round;
     background-attachment: fixed;
@@ -99,7 +100,7 @@ body {
     max-width: 960px;
     min-width: 640px;
     box-shadow: black -10px 0px 45px;
-    width: 95%;
+    width: 100%;
 }
 
 body>header>img {
@@ -109,15 +110,22 @@ body>header>img {
 
 /* Article Styles */
 article h1 {
-    font-size: 20px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+article.resume {
+    text-align: center;
 }
 
 body>article {
-    background: transparent;
     background-color: #C96567;
 }
 
-body>article>h2 {
+body>article.home>h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     margin: 10px;
@@ -131,3 +139,18 @@ body>article>p {
 }
 
 /* Aside Styles */
+aside {
+    background-color: #C96567;
+}
+
+aside#aboutme>img {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+
+aside#home>img {
+    width: 20%;
+    float: right;
+    padding: 10px;
+}
