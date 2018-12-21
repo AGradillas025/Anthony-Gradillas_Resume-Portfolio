@@ -154,3 +154,9 @@ aside#home>img {
     float: right;
     padding: 10px;
 }
+
+aside#experiences>img {
+    width: 30%;
+    float: right;
+    padding: 10px;
+}
